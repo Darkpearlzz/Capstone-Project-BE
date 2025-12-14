@@ -31,9 +31,8 @@ class EventSerializer(serializers.ModelSerializer):
 
     # VALIDATION: Check for past dates
     def validate_date_and_time(self, value):
-        """
-        Check that the event date is not in the past.
-        """
+        # Check that the event date is not in the past.
+
         if value < timezone.now():
             raise serializers.ValidationError("Event date cannot be in the past!")
         return value
