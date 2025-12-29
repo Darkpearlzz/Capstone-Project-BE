@@ -67,7 +67,7 @@ Follow these steps to run the project locally on your machine.
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Darkpearlzz/event_manager.git
+git clone https://github.com/Darkpearlzz/Capstone-Project-BE.git
 cd event_manager
 
 2. Set up Virtual Environment
