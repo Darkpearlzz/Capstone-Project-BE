@@ -113,9 +113,10 @@ Sample JSON for Creating an Event (POST):
 JSON
 
 {
-    "title": "Tech Conference 2024",
+    "title": "Tech Conference 2026",
     "description": "A gathering of tech enthusiasts.",
-    "date_and_time": "2024-12-25T14:00:00Z",
+    "date_and_time": "2026-12-25T14:00:00Z",
     "location": "Lagos, Nigeria",
     "capacity": 500
 }
+
